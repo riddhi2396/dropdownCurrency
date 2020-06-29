@@ -1,0 +1,24 @@
+.App {
+    .container {
+        height:auto;
+        width:45%;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid grey;
+        border-radius: 3px;
+        padding:20px;
+
+        .drop-down {
+            margin-left: 10px;
+           
+        }
+        .result {
+            width:fit-content;
+            height: auto;
+            border: 1px solid blue($color: #000000);
+            
+        }
+    }
+}
